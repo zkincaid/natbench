@@ -9,6 +9,7 @@ pavmark features a tagging system to enable easy subsetting of the suite (e.g., 
 - *integer*: requires only reasoning about integers (e.g., no memory)
 - *linear*: requires only reasoning about linear arithmetic.
 - *recursive*: contains recursive features
+- *array*: requires reasoning about arrays
 - *safe*: all assertions are expected to pass
 - *unsafe*: at least one assertion is expected to fail
 
