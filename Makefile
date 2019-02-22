@@ -40,3 +40,10 @@ tools/cbmc:
 	&& cd tools/cbmc \
 	&& wget https://www.cprover.org/cbmc/download/cbmc-5-11-linux-64.tgz \
 	&& tar xfz cbmc-5-11-linux-64.tgz
+
+# install dependencies
+# sudo apt-get install libmpfr-dev libgmp3-dev libboost-all-dev cmake cmake-gui curl flex bison
+tools/pagai:
+	cd tools \
+	&& git clone https://gricad-gitlab.univ-grenoble-alpes.fr/pagai/pagai.git \
+	&& cd pagai && ./default-build.sh
